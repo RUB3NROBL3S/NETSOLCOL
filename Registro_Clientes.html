@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title> Registro Clientes</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="img/Logo_NS.svg" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+
+        <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+    </head>
+    
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                
+                <img src="img/Logo_NSOL.svg">         
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Administración
+
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            
+                                <li><a class="dropdown-item" href="Dashboard.html">Dashboard</a></li>
+                             </ul>
+                        </li>
+                    </ul>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">BD
+    
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                
+                                    <li><a class="dropdown-item" href="Registro_Clientes.html">Registro Clientes</a></li>
+                                    <li><a class="dropdown-item" href="Registro_Proveedores.html">Registro Proveedores</a></li>
+                                    <li><a class="dropdown-item" href="Registro_Productos.html">Registro Productos   </a></li>
+                                 </ul>
+                            </li>
+                        </ul>
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Inventarios  
+        
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    
+                                        <li><a class="dropdown-item" href="#!">Stock</a></li>
+                    
+                                     </ul>
+                                </li>
+                            </ul>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Módulos</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#!">Cotizaciones</a></li>
+                                    <li><a class="dropdown-item" href="#!">Cuentas de cobro</a></li>
+                        
+  
+                                </ul>
+                            </li>
+                        </ul>
+
+
+                     <!-- Nav Item - User Information -->
+                    <li class="nav-item dropdown no-arrow">
+                        <a class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm" href="#" id="userDropdown" 
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="mr-2 d-none d-lg-inline text-white-600">Robben Robles</span>
+                        </a>
+                        
+                        <!-- Dropdown - User Information -->
+                        <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                            aria-labelledby="userDropdown">
+                            <a class="dropdown-item" href="#">
+                                <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                Profile
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                                Settings
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                                Activity Log
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                Logout
+                            </a>
+                        </div>
+                    </li>
+
+                    
+                </div>
+                
+            </div>
+
+            
+            
+        <!-- End of Navigation-->
+            
+        </nav>
+
+         <!-- Header-->
+         <header class="bg-secondary py-1">
+        </header>
+      
+  
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-dark sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center">
+                <div class="sidebar-brand-icon rotate-n-15"></div>
+                <div class="sidebar-brand-text mx-3">Administrador</div>
+            </a>
+   
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+            
+            
+            <!-- Nav Item - Pages Collapse Menu -->
+            <div class="sidebar-heading">
+                Herramientas
+            </div>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <span>Bases de Datos</span>
+                </a>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Componentes:</h6>
+                        <a class="collapse-item" href="Registro_Clientes.html">Registo de Clientes</a>
+                        <a class="collapse-item" href="Registro_Proveedores.html">Registro de Proveedores</a>
+                        <a class="collapse-item" href="Registro_Productos.html">Registro de Poductos</a>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Nav Item - Utilities Collapse Menu -->
+          
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
+                    aria-expanded="true" aria-controls="collapsePages">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>Inventarios</span>
+                </a>
+                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Componentes:</h6>
+                        <a class="collapse-item" href="#">Stock</a>
+
+                    </div>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
+                    aria-expanded="true" aria-controls="collapseUtilities">
+                    <i class="fas fa-fw fa-wrench"></i>
+                    <span>Módulos</span>
+                </a>
+                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
+                    data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Componentes:</h6>
+                        <a class="collapse-item" href="#">Cotizaciones</a>
+                        <a class="collapse-item" href="#">Cuentas de cobro</a>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                UTILIDADES
+            </div>
+
+            <!-- Nav Item - Pages Collapse Menu -->
+            
+
+            <!-- Nav Item - Charts -->
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    <span>Informes</span></a>
+            </li>
+
+            <!-- Nav Item - Tables -->
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Tablas</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+           
+        </ul>
+        <!-- End of Sidebar -->
+
+        
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800"></h1>
+                        
+                    </div>
+
+                    <!-- Content Row -->
+                    <div class="row">
+
+                        
+<!-- Header-->
+
+<div class="container">
+    <div class="input-group">
+        <input type="text" class="form-control bg-light border-3 small" placeholder="Buscar clientes..."
+            aria-label="Search" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+            <button class="btn btn-primary" type="button">
+                <i class="fas fa-search fa-sm"></i>
+            </button>
+            <button class="btn btn-primary" type="button">
+                <i class="bi bi-pencil-fill"></i>
+            </button>
+            <li 
+             class="btn btn-primary btn-user btn-block"
+             class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"
+             href="#" data-toggle="modal" data-target="#EraseModal">
+            <i class="bi bi-eraser-fill"></i>
+             </a>
+        </div>
+    </div>
+    
+            <div class="card o-hidden border-0 shadow-lg my-5" >
+                
+                <div class="card-body p-0">
+                    <!-- Nested Row within Card Body -->
+                    <div class="row">
+                         <div class="col-lg-12">
+                            <div class="p-5">
+                                <div class="text-center">
+                                    <h3 class="h5 text-gray-900 mb-4">DATOS DE CLIENTES</h3>
+                                </div>
+
+                                
+                                <form class="user">
+                                    
+                                    <div class="form-group row">
+                                        <div class="col-sm-6 mb-3 mb-sm-0">
+                                            <input type="text" class="form-control" id="exampleFirstName"
+                                                placeholder="Nombre">
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <input type="text" class="form-control" id="exampleLastName"
+                                                placeholder="Apellido">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-sm-6 mb-3 mb-sm-0">
+                                            <input type="text" class="form-control" id="exampleCCCoNIT"
+                                                placeholder="CC o NIT">
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <input type="text" class="form-control" id="exampleDireccion"
+                                                placeholder="Dirección">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="exampleInputEmail"
+                                            placeholder="Correo Electrónico">
+                                    </div>
+                                   
+                                                              
+                                    <div id="wrapper">
+
+                                        <li 
+                                        class="btn btn-primary btn-block"
+                                        class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"
+                                        href="#" data-toggle="modal" data-target="#RegisterModal">
+                                           <i class="mr-2 d-none d-lg-inline text-white-600"></i>
+                                           Registar cliente
+                                       </a>
+                                   </div>
+                                   
+                            
+
+                                </form>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+   
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Register Modal-->
+    <div class="modal fade" id="RegisterModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Cliente Registrado</div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary" href="Registro_Clientes.html">Salir</a>
+                </div>
+            </div>
+        </div>
+    </div>
+              
+     <!-- Erase Modal-->
+     <div class="modal fade" id="EraseModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+     <div class="modal-dialog" role="document">
+         <div class="modal-content">
+             <div class="modal-header">
+                 <h5 class="modal-title" id="exampleModalLabel">¿Desea borrar este cliente?</h5>
+                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">×</span>
+                 </button>
+             </div>
+             <div class="modal-body">Presione "Borrar" para eliminar este cliente.</div>
+             <div class="modal-footer">
+                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
+                 <a class="btn btn-primary" href="Registro_Clientes.html">Borrar</a>
+             </div>
+         </div>
+     </div>
+ </div>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">¿Desea cerrar su sesión?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Presione "Salir" si desea cerrar su sesión.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
+                    <a class="btn btn-primary" href="Index.html">Salir</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <!-- Page Content-->
+            <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="js/demo/chart-area-demo.js"></script>
+    <script src="js/demo/chart-pie-demo.js"></script>         
+
+ 
+
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
